@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+* {
+    list-style: none;
+    font-family: "Jaro", sans-serif;
+    margin: 0;
+    font-style: 0;
+}
+#cabeçario {
+    display: flex;
+    z-index: 1;
+    
+}
+#cabecalho{
+    z-index: 1;
+}
+
+#frutosdomar {
+    margin-right: 10%;
+    margin-left: 35px;
+    margin-top: 75px;
+}
+#peixesn {
+    margin-right: 10%;
+    margin-left: 35px;
+    margin-top: 75px;
+}
+#peixesc {
+    margin-left: 35px;
+    margin-top: 75px;
+    margin-right: 50px;
+}
+#duvida {
+    margin-right: 10%;
+    margin-left: 50px;
+    margin-top: 45px;
+}
+#entrar {
+    margin-right: 10%;
+    margin-left: 150px;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+header {
+    background-color: aqua;
+    position: relative;
+    
+}
+#imgcentro {
+    border-radius: 100%;
+    margin-left: 25%;
+    margin-top: -12vh;
+    z-index: 10;
+    
+}
+.busca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  
+  .busca form {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .busca input {
+    padding: 12px 20px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .busca input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    width: 350px;
+  }
+  
+  .busca button {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  #cor {
+    background-color: aqua;
+    width: 100%;
+    margin-top: 40px;
+    height: 40px;
+  }
+  a {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: black;
+  }
+body{
+    background:#f3f3f3;
+}
+
+.container{
+    width:95%;
+    margin:30px auto;
+    display:flex;
+    gap:30px;
+}
+
+.produtos{
+    flex:3;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.produto{
+    background:white;
+    border-radius:10px;
+    padding:15px;
+    text-align:center;
+    box-shadow:0 0 8px rgba(0,0,0,.15);
+}
+
+.produto img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.produto h3{
+    margin:12px 0 5px;
+}
+
+.produto p{
+    color:#009688;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.produto input{
+    width:70px;
+    padding:8px;
+    text-align:center;
+    font-size:16px;
+}
+
+.pagamento{
+    flex:1;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    height:fit-content;
+    box-shadow:0 0 8px rgba(0,0,0,.15);
+}
+
+.pagamento h2{
+    margin-bottom:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom:20px;
+}
+
+th,td{
+    border-bottom:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+.pagamento h3{
+    margin:20px 0;
+    color:#009688;
+}
+
+.pagamento label{
+    display:block;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+.pagamento select{
+    width:100%;
+    padding:10px;
+    margin-bottom:20px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    background:#009688;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#00796b;
+}
